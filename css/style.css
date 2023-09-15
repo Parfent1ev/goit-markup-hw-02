@@ -19,16 +19,28 @@ ul {
     font-family: 'Roboto' sans-serif;
     font-weight: bold;
     font-size: 56px;
-    letter-spacing: 2%;
-    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height:  1.07;
     color: #FFF;
+    text-align: center;
+}
+
+.title-section-a {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .title-section { 
     font-family: 'Roboto' sans-serif;
-    font-weight: bold;
-    font-size: 36px;
-    letter-spacing: 2%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 h3 {
@@ -45,12 +57,18 @@ h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0,04em;
+    cursor: pointer;
 }
 
 .bttn:hover {
     color:#FFF;
     background-color: #404bbf;
+}
+
+.bttn:focus {
+    color: #FFF;
+    background-color: #404BBF;
 }
 
 .logo {
@@ -67,7 +85,7 @@ h3 {
     color: #2E2F42;
 }
 
-.nav_link {
+.nav-link {
     color: #2E2F42;
     font-family: 'Roboto' sans-serif;
     font-weight: 500;
@@ -86,6 +104,32 @@ h3 {
     text-decoration: none;
 }
 
+.link-addr {
+    font-style: normal;
+}
+
+.nav-link-two {
+    color: #434455;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.nav-link-two:hover {
+    color: #404bbf;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
 .hero-image {
     background-color: #2E2F42;
 }
@@ -102,12 +146,20 @@ h3 {
     background-color: #FFF;
 }
 
-footer {
+.text-small {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.foot-section {
     background-color: #2E2F42;
 }
 
 .text-foot {
     color:#F4F4FD;
+    letter-spacing: 0.02em
 }
 
 .studio-footer {
