@@ -1,15 +1,21 @@
 body {
-    font-family: 'Roboto' , 'Raleway' , sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
+    background-color: #FFF;
+    color: #434455;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
     list-style-type: none;
 }
 
-h1 {
+.boss-title {
     font-family: 'Roboto' sans-serif;
     font-weight: bold;
     font-size: 56px;
@@ -18,7 +24,7 @@ h1 {
     color: #FFF;
 }
 
-h2 { 
+.title-section { 
     font-family: 'Roboto' sans-serif;
     font-weight: bold;
     font-size: 36px;
@@ -32,7 +38,7 @@ h3 {
     letter-spacing: 2%;
 }
  
-button {
+.bttn {
     background-color: #4D5AE5;
     color: #FFF;
     font-family: 'Roboto' sans-serif;
@@ -42,18 +48,42 @@ button {
     letter-spacing: 4%;
 }
 
+.bttn:hover {
+    color:#FFF;
+    background-color: #404bbf;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.studio {
+    color: #2E2F42;
+}
+
 .nav_link {
     color: #2E2F42;
     font-family: 'Roboto' sans-serif;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 4%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
-.nav-link :hover {
-    color: #404BBF;
+.nav-link:hover {
+    color: #404bbf;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .hero-image {
@@ -78,4 +108,8 @@ footer {
 
 .text-foot {
     color:#F4F4FD;
+}
+
+.studio-footer {
+    color: #F4F4FD;
 }
