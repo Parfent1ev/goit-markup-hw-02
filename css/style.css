@@ -140,6 +140,17 @@ h3 {
     letter-spacing: 0.32px;
 }
 
+.nav-link-two:focus {
+    color: #404bbf;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
 .hero-image {
     background-color: #2E2F42;
 }
